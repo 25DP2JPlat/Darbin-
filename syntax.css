@@ -93,7 +93,8 @@ nav a:hover {
       /* Automātiski pielāgo kolonnu skaitu: 
        uz datora būs 4, uz mazākiem ekrāniem mazāk */
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 25px;
+    gap: 50px;
+    margin: 20px;
 }
 
 .card {
